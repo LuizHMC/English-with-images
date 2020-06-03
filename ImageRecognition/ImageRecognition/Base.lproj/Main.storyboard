@@ -37,6 +37,17 @@
                                 </constraints>
                                 <state key="normal" image="form"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvF-7B-1W4">
+                                <rect key="frame" x="324" y="64" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="ERo-Rq-AaO"/>
+                                    <constraint firstAttribute="width" constant="70" id="HhU-yv-hWM"/>
+                                </constraints>
+                                <state key="normal" image="refresh"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="F8B-Vb-x3q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -47,7 +58,9 @@
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="6ZG-xT-lEY" secondAttribute="trailing" constant="20" id="aiZ-ht-le2"/>
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="Z8t-qb-Y96" secondAttribute="bottom" constant="20" id="c1n-1P-MTi"/>
+                            <constraint firstItem="NvF-7B-1W4" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="20" id="rDw-hK-zNc"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="NvF-7B-1W4" secondAttribute="trailing" constant="20" id="yN8-A4-ArQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                     </view>
@@ -144,5 +157,6 @@
     <resources>
         <image name="form" width="512" height="512"/>
         <image name="help" width="512" height="512"/>
+        <image name="refresh" width="488" height="488"/>
     </resources>
 </document>
