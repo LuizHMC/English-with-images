@@ -11,6 +11,10 @@ import SceneKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
+    
+    @IBAction func unwindSegue(segue: UIStoryboardSegue){
+        
+    }
 
     @IBOutlet var sceneView: ARSCNView!
     
@@ -65,7 +69,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let text = SCNText(string: referenceImage.name, extrusionDepth: 2)
         
         let materialText = SCNMaterial()
-        materialText.diffuse.contents = UIColor.black
+        materialText.diffuse.contents = UIColor.blue
         text.materials = [materialText]
         
         plane.firstMaterial?.diffuse.contents = UIColor.white
