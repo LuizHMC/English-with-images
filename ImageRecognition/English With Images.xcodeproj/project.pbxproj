@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		6D9A80E4248876A1008DFAF3 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
-		6DE19A1C242A8AF000174363 /* ImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE19A1C242A8AF000174363 /* English With Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English With Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE19A1F242A8AF000174363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE19A21242A8AF000174363 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		6DE19A23242A8AF000174363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		6DE19A1D242A8AF000174363 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DE19A1C242A8AF000174363 /* ImageRecognition.app */,
+				6DE19A1C242A8AF000174363 /* English With Images.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DE19A1B242A8AF000174363 /* ImageRecognition */ = {
+		6DE19A1B242A8AF000174363 /* English With Images */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DE19A30242A8AF600174363 /* Build configuration list for PBXNativeTarget "ImageRecognition" */;
+			buildConfigurationList = 6DE19A30242A8AF600174363 /* Build configuration list for PBXNativeTarget "English With Images" */;
 			buildPhases = (
 				6DE19A18242A8AF000174363 /* Sources */,
 				6DE19A19242A8AF000174363 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = ImageRecognition;
+			name = "English With Images";
 			productName = ImageRecognition;
-			productReference = 6DE19A1C242A8AF000174363 /* ImageRecognition.app */;
+			productReference = 6DE19A1C242A8AF000174363 /* English With Images.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DE19A17242A8AF000174363 /* Build configuration list for PBXProject "ImageRecognition" */;
+			buildConfigurationList = 6DE19A17242A8AF000174363 /* Build configuration list for PBXProject "English With Images" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DE19A1B242A8AF000174363 /* ImageRecognition */,
+				6DE19A1B242A8AF000174363 /* English With Images */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DE19A17242A8AF000174363 /* Build configuration list for PBXProject "ImageRecognition" */ = {
+		6DE19A17242A8AF000174363 /* Build configuration list for PBXProject "English With Images" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DE19A2E242A8AF600174363 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DE19A30242A8AF600174363 /* Build configuration list for PBXNativeTarget "ImageRecognition" */ = {
+		6DE19A30242A8AF600174363 /* Build configuration list for PBXNativeTarget "English With Images" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DE19A31242A8AF600174363 /* Debug */,
