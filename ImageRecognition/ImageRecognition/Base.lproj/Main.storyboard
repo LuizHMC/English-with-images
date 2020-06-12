@@ -269,8 +269,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgR-CU-wHd">
-                                <rect key="frame" x="10" y="160" width="394" height="101.5"/>
-                                <string key="text">Para utilizar o aplicativo aponte o celular com o aplicativo aberto para as imagens que vieram junto com o aplicativo e depois responda o questionário! Para ter acesso para as imagens abra a pasta com o nome "Imagens para reconhecimento".</string>
+                                <rect key="frame" x="10" y="149.5" width="394" height="122"/>
+                                <string key="text">Para utilizar o aplicativo aponte o celular com o aplicativo aberto para as imagens que vieram junto com o aplicativo e depois responda o questionário! Para ter acesso para as imagens abra a pasta com o nome "Imagens para reconhecimento" que vieram junto com o projeto.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -368,8 +368,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Oc-go-d23">
-                                <rect key="frame" x="10" y="173.5" width="394" height="101.5"/>
-                                <string key="text">Para utilizar o aplicativo aponte o celular com o aplicativo aberto para as imagens que vieram junto com o aplicativo e depois responda o questionário! Para ter acesso para as imagens abra a pasta com o nome "Imagens para reconhecimento".</string>
+                                <rect key="frame" x="10" y="163" width="394" height="122"/>
+                                <string key="text">Para utilizar o aplicativo aponte o celular com o aplicativo aberto para as imagens que vieram junto com o aplicativo e depois responda o questionário! Para ter acesso para as imagens abra a pasta com o nome "Imagens para reconhecimento" que vieram junto com o projeto.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
