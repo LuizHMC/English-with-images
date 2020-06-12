@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q3A-em-E5I">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -10,16 +10,16 @@
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController storyboardIdentifier="ViewControllerStoryBoardID" id="BV1-FR-VrT" customClass="ViewController" customModule="ImageRecognition" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewControllerStoryBoardID" id="BV1-FR-VrT" customClass="ViewController" customModule="EnglishWithImages" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                             </arscnView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8t-qb-Y96">
-                                <rect key="frame" x="20" y="772" width="70" height="70"/>
+                                <rect key="frame" x="20" y="718" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="IKm-WC-1tG"/>
                                     <constraint firstAttribute="height" constant="70" id="Lwa-CD-EbX"/>
@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZG-xT-lEY">
-                                <rect key="frame" x="324" y="772" width="70" height="70"/>
+                                <rect key="frame" x="324" y="718" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="KUw-p2-uLd"/>
                                     <constraint firstAttribute="height" constant="70" id="wbK-za-Kvx"/>
@@ -54,6 +54,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JQX-b4-6IY"/>
                     <connections>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
@@ -65,7 +66,7 @@
         <!--Formulário-->
         <scene sceneID="iQc-xb-UTI">
             <objects>
-                <viewController id="qQM-L4-8eZ" customClass="FormViewController" customModule="ImageRecognition" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qQM-L4-8eZ" customClass="FormViewController" customModule="EnglishWithImages" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0V3-mM-tgA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -268,14 +269,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgR-CU-wHd">
-                                <rect key="frame" x="10" y="180" width="394" height="61"/>
-                                <string key="text">Para utilizar o aplicativo aponte o celular com o aplicativo aberto para as imagens que vieram junto com o aplicativo e depois responda o formulário!</string>
+                                <rect key="frame" x="10" y="160" width="394" height="101.5"/>
+                                <string key="text">Para utilizar o aplicativo aponte o celular com o aplicativo aberto para as imagens que vieram junto com o aplicativo e depois responda o questionário! Para ter acesso para as imagens abra a pasta com o nome "Imagens para reconhecimento".</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O formulário é representado pelo ícone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZB-sN-dFG">
-                                <rect key="frame" x="20" y="410.5" width="303" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O questionário é representado pelo ícone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZB-sN-dFG">
+                                <rect key="frame" x="20" y="410.5" width="320" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -314,7 +315,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1bs-Gp-IeD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="tom-1m-DsR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3060.8695652173915" y="276.5625"/>
+            <point key="canvasLocation" x="2980" y="136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WAq-oa-UyK">
@@ -351,6 +352,79 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PK2-B1-0gH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="221.73913043478262" y="908.70535714285711"/>
+        </scene>
+        <!--Ajuda-->
+        <scene sceneID="YK8-tj-wGA">
+            <objects>
+                <viewController id="q3A-em-E5I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hXH-uP-Mnm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem vindo ao English with Images!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6B-aR-VgC">
+                                <rect key="frame" x="74" y="74" width="266" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Oc-go-d23">
+                                <rect key="frame" x="10" y="173.5" width="394" height="101.5"/>
+                                <string key="text">Para utilizar o aplicativo aponte o celular com o aplicativo aberto para as imagens que vieram junto com o aplicativo e depois responda o questionário! Para ter acesso para as imagens abra a pasta com o nome "Imagens para reconhecimento".</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O questionário é representado pelo ícone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDp-2g-f2Z">
+                                <rect key="frame" x="20" y="437.5" width="320" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="form" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-z9-EHh">
+                                <rect key="frame" x="331" y="410.5" width="73" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="2IF-jv-v9P"/>
+                                    <constraint firstAttribute="height" constant="75" id="Qsk-YJ-OYL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXA-XP-F6F">
+                                <rect key="frame" x="189.5" y="660" width="35" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="OK"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="xZv-nL-WdV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mSF-8A-JPZ" firstAttribute="trailing" secondItem="6Oc-go-d23" secondAttribute="trailing" constant="10" id="4c5-FS-BV0"/>
+                            <constraint firstItem="JDp-2g-f2Z" firstAttribute="leading" secondItem="mSF-8A-JPZ" secondAttribute="leading" constant="20" id="6PZ-iI-CnR"/>
+                            <constraint firstItem="C6B-aR-VgC" firstAttribute="top" secondItem="mSF-8A-JPZ" secondAttribute="top" constant="30" id="7W3-m5-LT1"/>
+                            <constraint firstItem="JDp-2g-f2Z" firstAttribute="centerY" secondItem="hXH-uP-Mnm" secondAttribute="centerY" id="7pE-bz-UIQ"/>
+                            <constraint firstItem="mSF-8A-JPZ" firstAttribute="trailing" secondItem="C6B-aR-VgC" secondAttribute="trailing" constant="74" id="8Ci-xj-0kj"/>
+                            <constraint firstItem="jh6-z9-EHh" firstAttribute="centerY" secondItem="hXH-uP-Mnm" secondAttribute="centerY" id="AGp-Ik-ERo"/>
+                            <constraint firstItem="6Oc-go-d23" firstAttribute="centerY" secondItem="hXH-uP-Mnm" secondAttribute="centerY" multiplier="0.5" id="Gxd-CU-Wfx"/>
+                            <constraint firstItem="C6B-aR-VgC" firstAttribute="leading" secondItem="mSF-8A-JPZ" secondAttribute="leading" constant="74" id="R1Z-Yo-p68"/>
+                            <constraint firstItem="vXA-XP-F6F" firstAttribute="centerX" secondItem="hXH-uP-Mnm" secondAttribute="centerX" id="VMI-QE-WyI"/>
+                            <constraint firstItem="mSF-8A-JPZ" firstAttribute="trailing" secondItem="jh6-z9-EHh" secondAttribute="trailing" constant="10" id="bpb-sA-1ZB"/>
+                            <constraint firstItem="6Oc-go-d23" firstAttribute="leading" secondItem="mSF-8A-JPZ" secondAttribute="leading" constant="10" id="dMo-8x-ARC"/>
+                            <constraint firstItem="mSF-8A-JPZ" firstAttribute="bottom" secondItem="vXA-XP-F6F" secondAttribute="bottom" constant="160" id="tQ0-gE-pND"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mSF-8A-JPZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ajuda" id="7Kw-xa-JTk">
+                        <barButtonItem key="rightBarButtonItem" title="Ok" style="plain" id="o1b-Ht-meR">
+                            <connections>
+                                <segue destination="0uL-rO-4ek" kind="unwind" unwindAction="unwindSegueWithSegue:" id="uhD-LI-Bt6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zec-hi-YIY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="0uL-rO-4ek" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-796" y="102"/>
         </scene>
     </scenes>
     <resources>
